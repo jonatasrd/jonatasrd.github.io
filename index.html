@@ -1,375 +1,380 @@
 <!DOCTYPE html>
 <html>
+
 <head>
-    <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-143037490-1"></script>
-    <script>
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-143037490-1"></script>
+  <script>
     window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
+    function gtag() { dataLayer.push(arguments); }
     gtag('js', new Date());
 
     gtag('config', 'UA-143037490-1');
-    </script>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="keywords" content="jonatas ramos, desenvolvedor backend, backend developer, engenheiro de software, desenvolvimento, java, spring, springboot, microservicos">
-    <meta name="description" content="Jonatas Ramos Domingos, engenheiro de software com foco em Java com a stack Spring">
-    <meta name="author" content="Jonatas Ramos Domingos">
-    <meta name="reply-to" content="jonatasrd@gmail.com">
-    <meta http-equiv="content-language" content="pt">
-    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-    <title>Jonatas Ramos Domingos</title>
+  </script>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="keywords"
+    content="jonatas ramos, desenvolvedor backend, backend developer, engenheiro de software, desenvolvimento, java, spring, springboot, microservicos">
+  <meta name="description" content="Jonatas Ramos Domingos, engenheiro de software com foco em Java com a stack Spring">
+  <meta name="author" content="Jonatas Ramos Domingos">
+  <meta name="reply-to" content="jonatasrd@gmail.com">
+  <meta http-equiv="content-language" content="pt">
+  <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+  <title>Jonatas Ramos Domingos</title>
 
-    <!-- favicon -->
-    <link href="favicon.ico" rel=icon>
+  <!-- favicon -->
+  <link href="favicon.ico" rel=icon>
 
-    <!-- web-fonts -->
-    <link href="https://fonts.googleapis.com/css?family=Hind:300,400,500,600,700" rel="stylesheet">
+  <!-- web-fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Hind:300,400,500,600,700" rel="stylesheet">
 
-    <!-- font-awesome -->
-    <link href="css/font-awesome.min.css" rel="stylesheet">
+  <!-- font-awesome -->
+  <link href="css/font-awesome.min.css" rel="stylesheet">
 
-    <!-- Bootstrap -->
-    <link href="css/bootstrap.min.css" rel="stylesheet">
+  <!-- Bootstrap -->
+  <link href="css/bootstrap.min.css" rel="stylesheet">
 
-    <!-- Style CSS -->
-    <link href="css/style.css" rel="stylesheet">
+  <!-- Style CSS -->
+  <link href="css/style.css" rel="stylesheet">
 
-    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
-    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-    <!--[if lt IE 9]>
+  <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+  <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+  <!--[if lt IE 9]>
     <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
     <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
 </head>
-<body id="page-top" data-spy="scroll" data-target=".navbar">
-<div id="main-wrapper">
-<!-- Page Preloader -->
-<div id="preloader">
-    <div id="status">
-        <div class="status-mes"></div>
-    </div>
-</div>
 
-<div class="columns-block container">
-<div class="left-col-block blocks">
-    <header class="header theiaStickySidebar">
-        <div class="profile-img">
-            <img src="img/img-profile.JPG" class="img-responsive" alt=""/>
-        </div>
-        <div class="content">
+<body id="page-top" data-spy="scroll" data-target=".navbar">
+  <div id="main-wrapper">
+    <!-- Page Preloader -->
+    <div id="preloader">
+      <div id="status">
+        <div class="status-mes"></div>
+      </div>
+    </div>
+
+    <div class="columns-block container">
+      <div class="left-col-block blocks">
+        <header class="header theiaStickySidebar">
+          <div class="profile-img">
+            <img src="img/img-profile.JPG" class="img-responsive" alt="" />
+          </div>
+          <div class="content">
             <h1>Jonatas Ramos Domingos</h1>
             <span class="lead">Engenheiro de Software</span>
 
             <div class="about-text">
-                <p>
-                    Olá, sou Engenheiro de software e venho trabalhando com projetos de software há alguns anos.<br />
-                    Faço parte de uma Squad responsável pelos serviços de agendamentos de exames on-line, com o foco em proporcionar uma melhor experiência para o usuário final, agilizando processos, reduzindo custos e evoluindo de forma sustentável as dependências internas.<br />
-                    Atuo na construção de um micro serviço responsável pelas regras de negócio (rules engine), com o objetivo de tornar o gerenciamento dessas regras mais simples, sendo possível um usuário, através de uma interface de gestão (frontend), realizar a manutenção das regras de forma pratica.<br />
-                
-                    Tecnicamente para isso acontecer, no backend utilizamos: Kotlin, Spring (boot, data, security e outros starters), Keycloak (autenticação), Swagger e Postgres.<br />
-                    Testes da API usam MockK, jUnit 5<br />
-                    Os testes integrados estão em Ruby com Rspec<br />
-                    Testes de performance utilizamos Locust<br />
-
-                    No frontend utilizamos: React (redux), MaterialUI<br />
-                    Testes frontend: Jest, Enzyme e Cypress<br />
-
-                    O processo de entrega e integração (CI e CD) é feito através da esteira de DEVOPS no Jenkins onde são executados os testes (unitários e integrados), empacotamento e deploy.<br />
-
-                    Ferramentas utilizadas: Git, Gradle, Jenkins, Docker, Kubernetes, Rancher. Monitoramento com Sonar e New Relic.<br />
-
-                    As equipes são distribuídas em Squads utilizando Agile com o framework Scrum.<br />
-                    Clima descontraído e flexível com dias de trabalho home office.<br />
-                    
-                </p>
+              <p>
+                Atuo como engenheiro de software em uma Squad responsável pelos serviços de agendamentos de exames
+                on-line, com o foco em proporcionar uma melhor experiência para o usuário final, agilizando processos,
+                reduzindo custos e evoluindo de forma sustentável as dependências internas.<br />
+                Para isso acontecer, se faz necessário extrair de um legado micro serviços onde seja possível escalar os
+                agendamentos online, isolar as regras de negócio, habilitar novos serviços para áreas estratégicas da
+                empresa, como oferta de exames.<br />
+                Utilizamos diversas tecnologias para isso acontecer, como Java, Kotlin, Ruby, Python etc.
+              </p>
             </div>
 
             <ul class="social-icon">
-                <li><a href="https://www.linkedin.com/in/jonatasrd/"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
-                <li><a href="https://github.com/jonatasrd"><i class="fa fa-github" aria-hidden="true"></i></a></li>
-                <li><a href="https://twitter.com/jonatasrd"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+              <li><a href="https://www.linkedin.com/in/jonatasrd/"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+              </li>
+              <li><a href="https://github.com/jonatasrd"><i class="fa fa-github" aria-hidden="true"></i></a></li>
+              <li><a href="https://twitter.com/jonatasrd"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
             </ul>
-        </div>
+          </div>
 
-    </header>
-    <!-- .header-->
-</div>
-<!-- .left-col-block -->
+        </header>
+        <!-- .header-->
+      </div>
+      <!-- .left-col-block -->
 
-<div class="right-col-block blocks">
-<div class="theiaStickySidebar">
-<section class="expertise-wrapper section-wrapper gray-bg">
-    <div class="container-fluid">
-        <div class="row">
-            <div class="col-md-12">
-                <div class="section-title">
+      <div class="right-col-block blocks">
+        <div class="theiaStickySidebar">
+          <section class="expertise-wrapper section-wrapper gray-bg">
+            <div class="container-fluid">
+              <div class="row">
+                <div class="col-md-12">
+                  <div class="section-title">
                     <h2>Soft Skills</h2>
+                  </div>
                 </div>
-            </div>
-        </div>
-        <!-- .row -->
+              </div>
+              <!-- .row -->
 
-        <div class="row">
-            <div class="col-md-6">
-                <div class="expertise-item">
+              <div class="row">
+                <div class="col-md-6">
+                  <div class="expertise-item">
                     <h3>Mantenho-me atualizado</h3>
                     <p>
-                        Gosto de aprender novas tecnologias com o objetivo de ter outras perspectivas para resolver um problema.
+                      Gosto de aprender novas tecnologias com o objetivo de ter outras perspectivas para resolver um
+                      problema.
                     </p>
+                  </div>
                 </div>
-            </div>
-            <div class="col-md-6">
-                <div class="expertise-item">
+                <div class="col-md-6">
+                  <div class="expertise-item">
                     <h3>Resiliência </h3>
                     <p>
-                        Consigo me adaptar rápido a novos desafios.
+                      Consigo me adaptar rápido a novos desafios.
                     </p>
+                  </div>
                 </div>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-md-6">
-                <div class="expertise-item">
+              </div>
+              <div class="row">
+                <div class="col-md-6">
+                  <div class="expertise-item">
                     <h3>Aprendo rápido</h3>
                     <p>
-                        Tenho facilidade em aprender rápido. Busco conhecimentos em blogs, palestras, cursos e livros.
+                      Tenho facilidade em aprender rápido. Busco conhecimentos em blogs, palestras, cursos e livros.
                     </p>
+                  </div>
                 </div>
-            </div>
 
-            <div class="col-md-6">
-                <div class="expertise-item">
+                <div class="col-md-6">
+                  <div class="expertise-item">
                     <h3>Acabativa</h3>
 
                     <p>
-                        Busco sempre trabalhar de forma organizada e dentro dos prazos. Atuo para resolver conflitos e entregar resultados.</p>
+                      Busco sempre trabalhar de forma organizada e dentro dos prazos. Atuo para resolver conflitos e
+                      entregar resultados.</p>
+                  </div>
                 </div>
+
+              </div>
+
+
             </div>
+          </section>
+          <!-- .expertise-wrapper -->
 
-        </div>
-
-
-    </div>
-</section>
-<!-- .expertise-wrapper -->
-
-<section class="section-wrapper skills-wrapper">
-    <div class="container-fluid">
-        <div class="row">
-            <div class="col-md-12">
-                <div class="section-title">
+          <section class="section-wrapper skills-wrapper">
+            <div class="container-fluid">
+              <div class="row">
+                <div class="col-md-12">
+                  <div class="section-title">
                     <h2>Habilidades</h2>
+                  </div>
                 </div>
-            </div>
 
-        </div>
-        <div class="row">
-            <div class="col-md-12">
-                <div class="progress-wrapper">
+              </div>
+              <div class="row">
+                <div class="col-md-12">
+                  <div class="progress-wrapper">
 
                     <div class="progress-item">
-                        <span class="progress-title">Técnicas - backend developer</span>
+                      <span class="progress-title">Técnicas - backend developer</span>
 
-                        <div class="progress">
-                            <div class="progress-bar" role="progressbar" aria-valuenow="95" aria-valuemin="0"
-                                 aria-valuemax="100" style="width: 99%"><span class="progress-percent"> 99%</span>
-                            </div>
+                      <div class="progress">
+                        <div class="progress-bar" role="progressbar" aria-valuenow="95" aria-valuemin="0"
+                          aria-valuemax="100" style="width: 99%"><span class="progress-percent"> 99%</span>
                         </div>
-                        <!-- .progress -->
+                      </div>
+                      <!-- .progress -->
                     </div>
                     <!-- .skill-progress -->
 
 
                     <div class="progress-item">
-                        <span class="progress-title">Resiliência</span>
+                      <span class="progress-title">Resiliência</span>
 
-                        <div class="progress">
-                            <div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0"
-                                 aria-valuemax="100" style="width: 97%"><span class="progress-percent"> 97%</span>
-                            </div>
+                      <div class="progress">
+                        <div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0"
+                          aria-valuemax="100" style="width: 97%"><span class="progress-percent"> 97%</span>
                         </div>
-                        <!-- /.progress -->
+                      </div>
+                      <!-- /.progress -->
                     </div>
                     <!-- /.skill-progress -->
 
 
                     <div class="progress-item">
-                        <span class="progress-title">Comunicação - speaking</span>
+                      <span class="progress-title">Comunicação - speaking</span>
 
-                        <div class="progress">
-                            <div class="progress-bar" role="progressbar" aria-valuenow="80" aria-valuemin="0"
-                                 aria-valuemax="100" style="width: 95%;"><span class="progress-percent"> 95%</span>
-                            </div>
+                      <div class="progress">
+                        <div class="progress-bar" role="progressbar" aria-valuenow="80" aria-valuemin="0"
+                          aria-valuemax="100" style="width: 95%;"><span class="progress-percent"> 95%</span>
                         </div>
-                        <!-- /.progress -->
+                      </div>
+                      <!-- /.progress -->
                     </div>
                     <!-- /.skill-progress -->
 
                     <div class="progress-item">
-                        <span class="progress-title">Organização</span>
+                      <span class="progress-title">Organização</span>
 
-                        <div class="progress">
-                            <div class="progress-bar" role="progressbar" aria-valuenow="95" aria-valuemin="0"
-                                 aria-valuemax="100" style="width: 95%;"><span class="progress-percent"> 95%</span>
-                            </div>
+                      <div class="progress">
+                        <div class="progress-bar" role="progressbar" aria-valuenow="95" aria-valuemin="0"
+                          aria-valuemax="100" style="width: 95%;"><span class="progress-percent"> 95%</span>
                         </div>
-                        <!-- /.progress -->
+                      </div>
+                      <!-- /.progress -->
                     </div>
                     <!-- /.skill-progress -->
                     <div class="progress-item">
-                        <span class="progress-title">Aprendizado</span>
+                      <span class="progress-title">Aprendizado</span>
 
-                        <div class="progress">
-                            <div class="progress-bar" role="progressbar" aria-valuenow="95" aria-valuemin="0"
-                                 aria-valuemax="100" style="width: 99%;"><span class="progress-percent"> 99%</span>
-                            </div>
+                      <div class="progress">
+                        <div class="progress-bar" role="progressbar" aria-valuenow="95" aria-valuemin="0"
+                          aria-valuemax="100" style="width: 99%;"><span class="progress-percent"> 99%</span>
                         </div>
-                        <!-- .progress -->
+                      </div>
+                      <!-- .progress -->
                     </div>
                     <!-- .skill-progress -->
 
+                  </div>
+                  <!-- /.progress-wrapper -->
                 </div>
-                <!-- /.progress-wrapper -->
+              </div>
+              <!--.row -->
             </div>
-        </div>
-        <!--.row -->
-    </div>
-    <!-- .container-fluid -->
-</section>
-<!-- .skills-wrapper -->
+            <!-- .container-fluid -->
+          </section>
+          <!-- .skills-wrapper -->
 
-<section class="section-wrapper section-experience gray-bg">
-    <div class="container-fluid">
-        <div class="row">
-            <div class="col-md-12">
-                <div class="section-title"><h2>Experiência profissional</h2></div>
-            </div>
-        </div>
-        <!--.row-->
-        <div class="row">
-            <div class="col-md-12">
-                <div class="content-item">
+          <section class="section-wrapper section-experience gray-bg">
+            <div class="container-fluid">
+              <div class="row">
+                <div class="col-md-12">
+                  <div class="section-title">
+                    <h2>Experiência profissional</h2>
+                  </div>
+                </div>
+              </div>
+              <!--.row-->
+              <div class="row">
+                <div class="col-md-12">
+                  <div class="content-item">
                     <small>2019 - Presente</small>
-                    <h3>Engenheiro de software - fullstack developer</h3>
+                    <h3>Engenheiro de software Especialista - fullstack developer</h3>
                     <h4>Dasa</h4>
-        
+
                     <p>São Paulo, Brasil</p>
-                </div>
-                <div class="content-item">
+                  </div>
+                  <div class="content-item">
                     <small>2014 - 2019</small>
                     <h3>Engenheiro de software - backend developer</h3>
                     <h4>Sesi e Senai</h4>
 
                     <p>São Paulo, Brasil</p>
-                </div>
-                <!-- .experience-item -->
-                <div class="content-item">
+                  </div>
+                  <!-- .experience-item -->
+                  <div class="content-item">
                     <small>2011 - 2014</small>
                     <h3>Analista programador</h3>
                     <h4>Arte Informática</h4>
 
                     <p>São Paulo, Brasil</p>
-                </div>
-                <!-- .experience-item -->
-                <div class="content-item">
+                  </div>
+                  <!-- .experience-item -->
+                  <div class="content-item">
                     <small>2010 - 2011</small>
                     <h3>Estagiário</h3>
                     <h4>Arte Informática</h4>
 
                     <p>São Paulo, Brasil</p>
+                  </div>
+                  <!-- .experience-item -->
                 </div>
-                <!-- .experience-item -->
+              </div>
+              <!--.row-->
             </div>
-        </div>
-        <!--.row-->
-    </div>
-    <!-- .container-fluid -->
+            <!-- .container-fluid -->
 
-</section>
-<!-- .section-experience -->
+          </section>
+          <!-- .section-experience -->
 
-<section class="section-wrapper section-education">
-    <div class="container-fluid">
-        <div class="row">
-            <div class="col-md-12">
-                <div class="section-title"><h2>Educação</h2></div>
-            </div>
-        </div>
-        <!--.row-->
-        <div class="row">
-            <div class="col-md-12">
-                <div class="content-item">
+          <section class="section-wrapper section-education">
+            <div class="container-fluid">
+              <div class="row">
+                <div class="col-md-12">
+                  <div class="section-title">
+                    <h2>Educação</h2>
+                  </div>
+                </div>
+              </div>
+              <!--.row-->
+              <div class="row">
+                <div class="col-md-12">
+                  <div class="content-item">
                     <small>2012 - 2013</small>
                     <h3>MBA - Engenharia de Software</h3>
                     <h4>Faculdade de Informática e Administração Paulista</h4>
 
                     <p>São Paulo - SP, Brasil</p>
-                </div>
-                <!-- .experience-item -->
-                <div class="content-item">
+                  </div>
+                  <!-- .experience-item -->
+                  <div class="content-item">
                     <small>2007 - 2011</small>
                     <h3>Ciências da Computação</h3>
                     <h4>Universidade Guarulhos</h4>
 
                     <p>Guarulhos - SP, Brasil</p>
+                  </div>
                 </div>
+              </div>
+              <!--.row-->
             </div>
-        </div>
-        <!--.row-->
-    </div>
-    <!-- .container-fluid -->
+            <!-- .container-fluid -->
 
-</section>
-<!-- .section-education -->
+          </section>
+          <!-- .section-education -->
 
-<section class="section-wrapper section-interest gray-bg">
-    <div class="container-fluid">
-        <div class="row">
-            <div class="col-md-12">
-                <div class="section-title">
+          <section class="section-wrapper section-interest gray-bg">
+            <div class="container-fluid">
+              <div class="row">
+                <div class="col-md-12">
+                  <div class="section-title">
                     <h2>Interesses</h2>
+                  </div>
                 </div>
-            </div>
-        </div>
-        <!-- .row -->
+              </div>
+              <!-- .row -->
 
-        <div class="row">
-            <div class="col-md-12">
-                <div class="content-item">
+              <div class="row">
+                <div class="col-md-12">
+                  <div class="content-item">
                     <h3>Estudos</h3>
-                        <p>Costumo usar parte do meu tempo livre consumindo cursos de tecnologia no formato e-learning. Gosto bastante da plataforma <a href="https://www.alura.com.br/">Alura</a>
-                        , onde já fiz <a href="https://cursos.alura.com.br/user/jonatasrd/fullCertificate/0801a457294fafbd8fe3116176252636">vários cursos</a> (: Gosto também da <a href="https://www.udemy.com/">Udemy</a>.<br />
-                        Assisto as palestras da comunidade no <a href="https://www.infoq.com/br">InfoQ</a> e <a href="http://www.thedevelopersconference.com.br">TDC</a></p>
-                </div>
-                <div class="content-item">
+                    <p>Costumo usar parte do meu tempo livre consumindo cursos de tecnologia no formato e-learning.
+                      Gosto bastante da plataforma <a href="https://www.alura.com.br/">Alura</a>
+                      , onde já fiz <a
+                        href="https://cursos.alura.com.br/user/jonatasrd/fullCertificate/0801a457294fafbd8fe3116176252636">vários
+                        cursos</a> (: Gosto também da <a href="https://www.udemy.com/">Udemy</a>.<br />
+                      Assisto as palestras da comunidade no <a href="https://www.infoq.com/br">InfoQ</a> e <a
+                        href="http://www.thedevelopersconference.com.br">TDC</a></p>
+                  </div>
+                  <div class="content-item">
                     <h3>Leituras</h3>
 
-                    <p>Leio preferencialmente livros de tecnologia. Não gosto muito de livros de histórias aleatórias e contos fictícios.
-                        Gosto bastante dos livros da <a href="https://www.casadocodigo.com.br/">Casa do código</a> e alguns da <a href="http://shop.oreilly.com/">O'Reilly</a>.
-                        Me interesso por outros assuntos específicos, e acabo lendo livros, blogs e matérias de startups, assuntos políticos e ciência.
+                    <p>Leio preferencialmente livros de tecnologia. Não gosto muito de livros de histórias aleatórias e
+                      contos fictícios.
+                      Gosto bastante dos livros da <a href="https://www.casadocodigo.com.br/">Casa do código</a> e
+                      alguns da <a href="http://shop.oreilly.com/">O'Reilly</a>.
+                      Me interesso por outros assuntos específicos, e acabo lendo livros, blogs e matérias de startups,
+                      assuntos políticos e ciência.
                     </p>
-                </div>
-                <div class="content-item">
+                  </div>
+                  <div class="content-item">
                     <h3>Esportes</h3>
 
                     <p>Não pratico ativamente nenhum tipo de esporte. Porém também não sou nenhum couch potato.
-                        Frequento academia diariamente e acho que isso me dá uma energia para o dia. Quando não consigo ir
-                        sinto que fico o dia todo sonolento, aí tenho que beber mais café ainda.
+                      Frequento academia diariamente e acho que isso me dá uma energia para o dia. Quando não consigo ir
+                      sinto que fico o dia todo sonolento, aí tenho que beber mais café ainda.
                     </p>
 
+                  </div>
+
                 </div>
+              </div>
+              <!-- .row -->
 
             </div>
-        </div>
-        <!-- .row -->
+          </section>
+          <!-- .section-publications -->
 
-    </div>
-</section>
-<!-- .section-publications -->
-
-<!-- section class="section-wrapper portfolio-section">
+          <!-- section class="section-wrapper portfolio-section">
     <div class="container-fluid">
         <div class="row">
             <div class="col-md-12">
@@ -440,43 +445,44 @@
 
     </div>
 </section -->
-<!-- .portfolio -->
+          <!-- .portfolio -->
 
-<section class="section-contact section-wrapper gray-bg">
-    <div class="container-fluid">
-        <div class="row">
-            <div class="col-md-12">
-                <div class="section-title">
+          <section class="section-contact section-wrapper gray-bg">
+            <div class="container-fluid">
+              <div class="row">
+                <div class="col-md-12">
+                  <div class="section-title">
                     <h2>Contato</h2>
+                  </div>
                 </div>
-            </div>
-        </div>
-        <!--.row-->
-        <div class="row">
-            <div class="col-md-12">
-                <address>
+              </div>
+              <!--.row-->
+              <div class="row">
+                <div class="col-md-12">
+                  <address>
                     <strong>Celular</strong><br>
                     <span class="fa fa-mobile" aria-hidden="true">&nbsp; +55 11 9 9732 2555</span>
-                </address>
+                  </address>
 
-                <address>
+                  <address>
                     <strong>Email</strong><br>
                     <a href="mailto:#" class="fa fa-envelope" aria-hidden="true">&nbsp; jonatasrd@gmail.com</a>
-                </address>
+                  </address>
 
-                <address>
+                  <address>
                     <strong>Skype</strong><br>
                     <span class="fa fa-skype" aria-hidden="true">&nbsp; jonatasrd</span>
-                </address>
+                  </address>
 
-                <address>
+                  <address>
                     <strong>Currículo</strong><br>
-                    <a href="./download/curriculo.docx" class="fa fa-download" aria-hidden="true" download="Jonatas.docx">&nbsp; Curriculo</a>
-                </address>
-            </div>
-        </div>
-        <!--.row-->
-        <!-- div class="row">
+                    <a href="./download/curriculo.docx" class="fa fa-download" aria-hidden="true"
+                      download="Jonatas.docx">&nbsp; Curriculo</a>
+                  </address>
+                </div>
+              </div>
+              <!--.row-->
+              <!-- div class="row">
             <div class="col-md-12">
                 <div class="feedback-form">
                     <h2>Get in touch</h2>
@@ -508,42 +514,45 @@
                 </div>
 
             </div>
-        </div --> <!-- .feedback-form -->
-    </div>
-    <!--.container-fluid-->
-</section>
-<!--.section-contact-->
-
-<footer class="footer">
-    <div class="copyright-section">
-        <div class="container-fluid">
-            <div class="row">
-                <div class="col-md-12">
-                    <div class="copytext">A arte de programar consiste em organizar e dominar a complexidade - Edsger W. Dijkstra</div>
-                </div>
+        </div -->
+              <!-- .feedback-form -->
             </div>
-            <!--.row-->
+            <!--.container-fluid-->
+          </section>
+          <!--.section-contact-->
+
+          <footer class="footer">
+            <div class="copyright-section">
+              <div class="container-fluid">
+                <div class="row">
+                  <div class="col-md-12">
+                    <div class="copytext">A arte de programar consiste em organizar e dominar a complexidade - Edsger W.
+                      Dijkstra</div>
+                  </div>
+                </div>
+                <!--.row-->
+              </div>
+              <!-- .container-fluid -->
+            </div>
+            <!-- .copyright-section -->
+          </footer>
+          <!-- .footer -->
         </div>
-        <!-- .container-fluid -->
+        <!-- Sticky -->
+      </div>
+      <!-- .right-col-block -->
     </div>
-    <!-- .copyright-section -->
-</footer>
-<!-- .footer -->
-</div>
-<!-- Sticky -->
-</div>
-<!-- .right-col-block -->
-</div>
-<!-- .columns-block -->
-</div>
-<!-- #main-wrapper -->
+    <!-- .columns-block -->
+  </div>
+  <!-- #main-wrapper -->
 
-<!-- jquery -->
-<script src="js/jquery-2.1.4.min.js"></script>
+  <!-- jquery -->
+  <script src="js/jquery-2.1.4.min.js"></script>
 
-<!-- Bootstrap -->
-<script src="js/bootstrap.min.js"></script>
-<script src="js/theia-sticky-sidebar.js"></script>
-<script src="js/scripts.js"></script>
+  <!-- Bootstrap -->
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/theia-sticky-sidebar.js"></script>
+  <script src="js/scripts.js"></script>
 </body>
+
 </html>
